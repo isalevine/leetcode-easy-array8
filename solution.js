@@ -19,7 +19,7 @@
 var moveZeroes = function(nums) {
     let length = nums.length;
     
-    for (i = 0; i < length; i = i + 0) {    // override incrementor
+    for (i = 0; i < length; i) {    // override incrementor
         if (nums[i] == 0) {
             nums.splice(i, 1);
             nums.push(0);
